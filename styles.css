@@ -19,8 +19,7 @@ header {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    width: 95vw;
-    padding-left: 3vh;
+    margin-left: 1vw;
     padding-top: 5vh;
     padding: 0;
     margin-top: 2vh;
@@ -47,7 +46,7 @@ div#subheader{
 }
 #frame {
     margin-top: 10vh;
-    padding: 5vh 3vh;
+    padding: 5vh 3vw;
     background-color: #020202;
     background-color: #a5a299;
     width: 95vw;
