@@ -48,9 +48,9 @@ div#subheader{
 }
 #frame {
     margin-top: 7vh;
-    padding: 2vh 3vw;
+    padding: 6vh 3vw;
     background-color: #a5a299;
-    width: 65vw;
+    width: 60vw;
     max-width: 65vw;
     box-shadow: 0 0 25px 15px rgba(26, 26, 26, 0.3); 
 }
@@ -63,21 +63,35 @@ div#subheader{
 .card {
     background-color: #b4b8c5;
     background-color: #bdbdbd;
+    color: black;
     height: 30vh;
     width: 25vh;
-    margin: 5vh 1vh 1vh 1vh;
+    margin: 1vh 1vh 1vh 1vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    clip-path: polygon(11% 1%, 100% 0, 100% 100%, 0 100%, 0 11%);
+    /*clip-path: polygon(11% 1%, 100% 0, 100% 100%, 0 100%, 0 11%);*/
 }
-.card:hover {
-    box-shadow: 0 0 25px 15px rgba(26, 26, 26, 0.3); 
+.box-shadow:hover {
+    box-shadow: 0 0 10px 10px rgba(26, 26, 26, 0.3);
 }
-.card:focus {
-    box-shadow: 0 0 25px 15px rgba(26, 26, 26, 0.3); 
+.box-shadow:focus {
+    box-shadow: 0 0 10px 10px rgba(26, 26, 26, 0.3);
 }
+.box-shadow:active {
+    background-color: #808080;
+}
+/*
+.btn-primary:hover {
+    background-color: #808080;
+    color: black;
+}
+.btn-primary:focus {
+    background-color: #808080;
+    color: black;
+}
+*/
 .card-para {
     margin: 0 2.5vh 0 2.5vh;
     padding: 0;
