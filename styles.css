@@ -63,10 +63,10 @@ div#subheader{
 .card {
     background-color: #b4b8c5;
     background-color: #bdbdbd;
-    color: black;
+    color: #333333;
     height: 30vh;
     width: 25vh;
-    margin: 1vh 1vh 1vh 1vh;
+    margin: 1vh 1vh 3vh 1vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
