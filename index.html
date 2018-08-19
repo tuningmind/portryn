@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Portryn Graphics</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+	</head>
+	<body id="page" data-spy="scroll" data-target=".navbar" data-offset="60">
+         <nav class="navbar navbar-inverse navbar-left navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle left" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                    </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Gallery</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>Portryn Graphics</h1>
+            <div id="subheader">
+                Stock images for commercial use 
+            </div>
+        </header>
+        <div id="frame" class="container">
+            <div id="gallery" class="row">
+                <div class="card">
+                    <img class="images" src="images/82415291-electricity-icon.jpg">
+                    <p class="card-para">electricity icon</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82652267-electricity-icon-with-spark.jpg">
+                    <p class="card-para">electricity w spark</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82328329-compost-icon.jpg">
+                    <p class="card-para">compost</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82328330-solar-energy-icon.jpg">
+                    <p class="card-para">solar energy</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82328698-mirrored-faces-stock-photo.jpg">
+                    <p class="card-para">mirrored faces</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82415195-calendar-icon.jpg">
+                    <p class="card-para">calendar</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82651055-flower-picking-stock-photo.jpg">
+                    <p class="card-para">flower picking</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82696699-strange-eyes-stock-photo.jpg">
+                    <p class="card-para">strange eyes</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82415196-loose-style-illustration-firey-snake.jpg">
+                    <p class="card-para">firey snake</p>
+                </div>
+                <div class="card">
+                    <img class="images" src="images/82603732-eye-up-close-stock-photo.jpg">
+                    <p class="card-para">eye close up</p>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            $(window).scroll(function() {
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                $(this).addClass("slide");
+                }
+            });
+            });
+        </script>
+    </body>
+</html>
+
