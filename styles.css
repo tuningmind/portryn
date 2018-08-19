@@ -29,9 +29,15 @@ h1 {
     padding: 0;
     margin: 0;
     position: relative;
+    -webkit-animation-name: tagline;
+    -moz-animation-name: tagline;
     animation-name: tagline;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
     animation-duration: 0.5s;
     /*animation-delay: 1s;*/
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     font-size: 5vh;
 }
